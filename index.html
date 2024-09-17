@@ -1,64 +1,78 @@
 <!DOCTYPE html>
-<html lang="en>
+<html lang="en">
 <head>
-     <title>Homepage</title>
-     <meta charset="utf-8">
-       <style>
-	body {
-	   font-family: Verdana,sans-serif;
-	   font-size: 0.9em;
-	}
-	header, footer {
-	  padding: 10px;
-	  color: white;
-	  background-color: black;
-	}
-	section {
-	  margin: 5px;
-	  padding: 10px;
-	  background-color: lightgrey;
-	}
-	article {
-	  margin: 5px;
-	  padding: 10px;
-	  background: white;
-	}
-	nav ul {
-	  padding: 0;
-	}
-	nav ul li {
-	  display: inline;
-	  margin: 5px;
-	}
-      </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
 </head>
 <body>
-  <header>
-<h1>Homepage</h1>
-  </header>
+    <header class="header">
+        <a href="#" class="brand-logo-a-tag">
+            <!-- <img src="" alt="Brand logo"> -->
+            <span class="brand-logo-name">SCOTT</span>
+        </a>
 
-<nav>
-    <nav>
-	<ul>
-	    <li><a href="./chap1/index.html">CHAP1</a></li>
-            <li><a href="./chap2/index.html">CHAP2</a></li>
-	    <li><a href="./Chap3/index.html">CHAP3</a></li>
-	    <li><a href="./Chap4/index.html">CHAP4</a></li>
-	    <li><a href="./Chap5/index.html">CHAP5</a></li>
-	    <li><a href="./Chap6/index.html">CHAP6</a></li>
-	    <li><a href="./Chap7/index.html">CHAP7</a></li>
-	    <li><a href="./Chap8/index.html">CHAP8</a></li>
-	    <li><a href="./Chap9/index.html">CHAP9</a></li>
-	    <li><a href="./Chap10/index.html">CHAP10</a></li>
-	    <li><a href="./Chap11/index.html">CHAP11</a></li>
-	</ul>
-</nav>
-<section>
-   <h2>Welcome to my website<h2>
-</section>
-<footer>
-<p>2024 CIST1510, All rights reserved to Xavier Akins</p>
-</footer>
+        <nav class="navbar">
+            <ul class="navbar-lists" id="myTopnav">
+                <li>
+                  <i class="fas fa-home"></i>
+                  <a class="navbar-link home-link" href="#">Home</a>
+                </li>
+                <li>
+                  <i class="fas fa-user"></i>
+                  <a class="navbar-link about-link" href="#">About<span>Me</span></a>
+                </li>
+                <li>
+                  <i class="fas fa-envelope"></i>
+                  <a class="navbar-link contact-link" href="#">Notes</a>
+                </li>
+
+                <li class="dropdown">
+                    <button class="dropbtn">
+                      Course Work 
+                      <i class="fas fa-caret-down"></i>
+                      </button>
+                    <div class="dropdown-content">
+                        <a href="./chap1/index.html" class="navbar-link">
+                        <i class="fas fa-newspaper"></i>
+                        Chap1: Intro
+                        </a>
+                        <a href="./chap2/index.html" class="navbar-link">
+                          <i class="fas fa-newspaper"></i>
+                          Chap2: Template
+                          </a>
+                        <a href="#" class="navbar-link">
+                        <i class="fas fa-newspaper"></i>
+                        Chap3: Images
+                        </a>
+                        <a href="#" class="navbar-link">
+                        <i class="fas fa-newspaper"></i>
+                        Chap4: CSS
+                        </a>
+                        <a href="#!chap5" class="navbar-link">
+                            <i class="fas fa-newspaper"></i>
+                        Chap5: RESPONSIVE 1
+                        </a>
+                    </div>
+                </li>
+
+            </ul>
+            <a href="javascript:void(0);" 
+               class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+
+        
+           
+        
+        <footer>
+            <p>&copy; FY2024 RESPONSIVE WEB DESIGN with HTML5 & CSS</p>
+            <p>INSTUCTOR: W. J. SCOTT</p>
+        </footer>
+
+    <script src="./javascript/app.js"></script>
 </body>
-
 </html>
