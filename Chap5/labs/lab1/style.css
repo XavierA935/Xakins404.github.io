@@ -1,0 +1,152 @@
+/* Css RESET*/
+body,
+header,
+nav,
+main,
+footer,
+img,
+h1,
+h3,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body and images */
+body {
+    background-color: #f6eee4;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.mobile {
+    display: block;
+}
+
+.mobile h1 {
+    font-family: "Emblema One", cursive;
+}
+.mobile h3 {
+    font-family: "Lora", serif;
+}
+.tab-desk {
+    display: none;
+}
+
+
+h1 {
+    text-align: center;
+    padding: 2%;
+    font-family: "Emblema One", cursive;
+}
+
+h3 {
+    text-align: center;
+    padding: 2%;
+    font-family: "Lora", serif;
+}
+
+
+nav {
+    background-color: #19142a;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: block;
+    font-size: 1.5em;
+    font-family: Geneva, Arial, sans-serif;
+    font-weight: bold;
+    border-top: 0.5px solid #f6eee4;
+}
+
+nav li a {
+    display: block;
+    color: #f6eee4;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+
+
+main {
+    padding: 2%;
+    font-family: verdana, arial, sans-serif;
+    font-family: "lora", serif;
+}
+
+main p {
+    font-size: 1.25em;
+}
+main h3 {
+    padding-top: 2%;
+}
+
+main ul {
+    list-style-type: square;
+}
+
+.link {
+    color: #4d3319;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.action {
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.round {
+    border-radius: 6px;
+}
+
+#info ul {
+    margin-left: 10%;
+}
+
+#contact .email-link {
+    text-align: center;
+}
+
+.tel-link {
+    background-color: #373684;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tel-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+}
+
+.map {
+    width: 95%;
+    height: 50%;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    background-color: #2a1f14;
+    color: #f6eee4;
+    padding: 1% 0%;
+}
+
+footer a {
+    color: #f3e6d8;
+    text-decoration: none;
+}
