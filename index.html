@@ -23,6 +23,12 @@
           margin: 5px;
         }
           </style>
+           <style>
+            .about{height: 100vh; background-color:yellow; color: black;}
+            .contact{height: 100vh; background-color:red; color:green;}
+            .notes{height: 100vh; background-color:blue; color:orange}
+        </style>
+
 </head>
 <body>
     <header class="header">
@@ -90,13 +96,32 @@
             </a>
         </nav>
     </header>
+    <div>
+      <nav>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#notes">Notes</a></li>
+      </nav>
+      <div class="about" id="about">
+          <h1>About</h1>
+          <p>What would you like to know?</p>
+      </div>
+      <div class="contact" id="contact">
+          <h1>Contact</h1>
+          <p>What would you like to know?</p>
+      </div>
+      <div class="notes" id="notes">
+          <h1>Notes</h1>
+          <p>we ahve ntes</p>
+      </div>
+  </div>
 
     <main>
  <!-- The HTML -->
- <div class="two-columns" id="about">
-  <div class="image_about">
-      <img src="about_image.png" alt="">
-  </div>
+  <div class="two-columns" id="about">
+      <div class="image_about">
+          <img src="about_image.png" alt="">
+      </div>
   <div>
 <h3>Xavier Akins</h3>
 <p>
@@ -107,6 +132,19 @@
 </p>
 </div>
 <div class="readmore">    <a href="./About me/index.html" target="_blank"><button>READ MORE</button></a></div>
+</div>
+
+<div class="form_section" id="contact">
+  <form>
+      <label for="frame">First name</label><br>
+      <input type="text" id="frame" name="frame" value="xavier"><br><br>
+
+      <label for="frame">First name</label><br>
+      <input type="text" id="frame" name="frame" value="xavier"><br><br>
+  
+      <label for="frame">First name</label><br>
+      <input type="text" id="frame" name="frame" value="xavier"><br><br>
+  </form>
 </div>
 
 

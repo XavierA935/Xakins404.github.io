@@ -1,7 +1,3 @@
-
-
-
-
 /* Author: Xavier Akins
 style.css
 /*
@@ -23,7 +19,7 @@ img {
 header {
     text-align: center;
     font-size: 3em;
-    color: #373684;
+    color: #008000;
 }
 
 header h1 {
@@ -32,7 +28,7 @@ header h1 {
 
 /* Style rules for navigation area*/
 nav {
-    background-color: #373684
+    background-color: #008000
 }
 
 nav ul {
@@ -77,11 +73,7 @@ main p {
     margin: 0 2%;
 }
 
-#info {
-    clear: left;
-    background-color: #c0caf7;
-    padding: 1% 2%;
-}
+
 
 #contact {
     text-align: center;
@@ -99,12 +91,16 @@ main p {
 
 /* Style rules for footer content */
 footer {
+    background-color: #008000;
+    color: #fff;
     text-align: center;
-    font-size: 0.65em;
-    clear: left;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
-footer a {
-    color: #4645a8;
-    text-decoration: none;
+.dark-mode footer {
+    background-color: #222;
+    border-top: 2px solid #fff;
 }
